@@ -1,0 +1,178 @@
+.home--background {
+  background:url(https://lamisaritu.github.io/bootstrapXd/images/home_background2.PNG) no-repeat center; 
+  background-size: cover;
+  height: 960px; 
+  @media only screen and (max-width: 991px){
+    background: url(https://lamisaritu.github.io/bootstrapXd/images/home_background2.PNG) no-repeat right;
+  }
+}
+
+.about {
+  &--pic {
+    width: 385.43px;
+    height: auto;
+    @media only screen and (max-width: 991px){
+      width: 362.43px;
+    }
+    @media only screen and (max-width: 575px){
+      width: 285.43px;
+    }
+  }
+  &--dot {
+    background: url(https://lamisaritu.github.io/bootstrapXd/images/about_back2.PNG) no-repeat right;
+    width: 160.91px;
+    height: 188.97px;
+    @media only screen and (max-width: 767px){
+      background: url(https://lamisaritu.github.io/bootstrapXd/images/about_back2.PNG) no-repeat top right;
+      width: 60.91px;
+      height: auto;
+    }
+  }
+  &--ring {
+    width: 161.58px;
+    height: 161.58px;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -2px;
+    z-index: 2;
+    @media only screen and (max-width: 1399px){
+      margin-left: 278px;
+      margin-top: 2px;
+    }
+    @media only screen and (max-width: 1299px){
+      margin-left: 228px;
+    }
+    @media only screen and (max-width: 991px){
+      width: 138.58px;
+      height: 138.58px;
+      margin-left: 2px;
+      margin-top: 12px;
+    }
+    @media only screen and (max-width: 767px){
+      margin-left: 26px;
+      margin-top: 4px;
+    }
+    @media only screen and (max-width: 575px){
+      width: 120.58px;
+      height: 120.58px;
+      margin-left: 2px;
+      margin-top: 16px;
+    }
+  }
+}
+
+.portfolio--pic {
+  @media only screen and (max-width: 767px){
+    width: 385.43px;
+    height: auto;
+  }
+  @media only screen and (max-width: 575px){
+    width: 285.43px;
+  }
+}
+
+.testimony--background {
+  background: url(https://lamisaritu.github.io/bootstrapXd/images/testimony_back2.PNG) no-repeat left top; 
+  height: 562px;
+  @media only screen and (max-width: 767px){
+    background: url(https://lamisaritu.github.io/bootstrapXd/images/testimony_back2.PNG) no-repeat center top;
+  }
+}
+
+.blog {
+  &--background {
+    background: url(https://lamisaritu.github.io/bootstrapXd/images/blogg.PNG) no-repeat right;
+    width: 851px;
+    height: 1007.64px;
+    position: relative;
+    z-index: 1;
+  }
+  &--pic {
+    width: 336px;
+    height: 249px;
+  }
+}
+
+.form--background {
+  background: url(https://lamisaritu.github.io/bootstrapXd/images/form2.PNG) no-repeat center top;
+  margin-top: -60px;
+  @media only screen and (max-width: 991px){
+    margin-top: -40px;
+  }
+  @media only screen and (max-width: 767px){
+    margin-top: 1060px;
+  }
+  @media only screen and (max-width: 575px){
+    margin-top: 820px;
+  }
+  @media only screen and (max-width: 360px){
+    margin-top: 780px;
+  }
+}
+
+.footer--background {
+  background: url(https://lamisaritu.github.io/bootstrapXd/images/testimony_back2.PNG) no-repeat center top; 
+  margin-top: -140px;
+  @media only screen and (max-width: 991px){
+    margin-top: -60px;
+  }
+  @media only screen and (max-width: 767px){
+    background: url(https://lamisaritu.github.io/bootstrapXd/images/testimony_back2.PNG) no-repeat left;
+    margin-top: 0px;
+  }
+  @media only screen and (max-width: 575px){
+    margin-top: -30px;
+  }
+}
+
+.dot {
+  &--background {
+    height: 346px;
+    width: 292px;
+    margin-left: -160px;
+    margin-top: -220px;
+    position: absolute;
+    @media only screen and (max-width: 575px){
+      height: 246px;
+      width: 192px;
+      margin-left: -154px;
+      margin-top: -86px;
+    }
+  }
+  &--services {
+    height: 346px;
+    width: 292px;
+    margin-left: 1137px;
+    margin-top: -500px;
+    position: absolute;
+    z-index: -1;
+    @media only screen and (max-width: 1399px){
+      margin-left: 1040px;
+      margin-top: -500px;
+    }
+    @media only screen and (max-width: 1299px){
+      margin-left: 950px;
+    }
+    @media only screen and (max-width: 1199px){
+      margin-left: 710px;
+      margin-top: -530px;
+    }
+    @media only screen and (max-width: 991px){
+      margin-left: 480px;
+      margin-top: -530px;
+    }
+    @media only screen and (max-width: 767px){
+      margin-left: 300px;
+      margin-top: -470px;
+    }
+    @media only screen and (max-width: 575px){
+      height: 246px;
+      width: 192px;
+      margin-left: 219px;
+      margin-top: -362px;
+    }
+    @media only screen and (max-width: 360px){
+      margin-left: 164px;
+    }
+  }
+}
